@@ -1,0 +1,292 @@
+*{margin:0;,padding:0;}
+
+header, nav, main, section, footer {display: block;}
+
+.clear {clear:both;}
+
+#wrapper {
+	width:1000px;
+	margin:0px auto;
+}
+
+.DarkBox {
+	background-color:#000000;
+	opacity:0.6;
+}
+
+.BoxWidth {width: 210px;}
+
+.logo{
+	display: block;
+	background-image: url("../images/logo.jpg");
+	background-repeat: no-repeat;
+	width: 78px;
+	height: 79px;
+}
+
+/*-----Layout 1-----*/
+
+.headerL1{
+	width: 1000px;
+	height: 183px
+}
+
+.LinksL1{
+	text-align:center;
+	text-decoration:none;
+	width:243px;
+	height:57px;
+	line-height:58px;
+	color:#ffffff;
+	display:block;
+	margin-top: 43px;
+	background-color:#b94a48;
+}
+
+.selected {background-color:#333333;}
+.Layout2/3 {background-color:#b94a48;}
+
+.logoL1 {
+	margin-left:96px;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+#TopMenu ul {
+	float:right;
+	list-style-type: none;
+}
+#TopMenu li {float:left;}
+
+aside{
+	width: 121px;
+	height: 696px;
+	float: left;
+	background-color:#f2dede
+}
+
+.sectionL1{
+	width: 849px;
+	height: 268px;
+	float: left;
+	background-color:#ee5f5b;
+	margin-left: 30px;
+}
+.box1L1{
+	position:relative;
+	width:125px;
+	height:95px;
+	left:340px;
+	top:90px
+}
+.box2L1{
+	position:relative;
+	height:175px;
+	width:692px;
+	top:380px;
+	left:65px;
+}
+
+.footerL1{
+	position: absolute;
+	bottom: -340px;
+	width: 1000px;
+	height: 121px;
+	background-color: #d6d6d6;
+}
+
+/*-----Layout2-----*/
+
+.headerL2{
+	width: 1000px;
+	height: 183px
+}
+
+.LinksL2{
+	text-align:left;
+	padding-left: 20px;
+	text-decoration:none;
+	height:57px;
+	line-height:58px;
+	color:#ffffff;
+	display:block;
+	margin-top: 3px;
+}
+
+.Layout1_3 {background-color:#333333;}
+.Layout2 {background-color:#b94a48;}
+.cover {background-color:#ee5f5b;}
+
+.logoL2 {
+	left:445px;
+	top:40px;
+	position: relative;
+}
+
+#SideMenu {
+	background-color:#333333;
+	float:left;
+	margin-top: 104px;
+	height: 758px;
+	width: 200px;
+}
+#SideMenu ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.sectionL2 {
+	width:757px;
+	height:757px;
+	position:relative;
+	overflow: hidden;
+	padding-left: 43px;
+}
+.sectionL2 div{margin-left: 22px;}
+
+.box1L2 {
+	float:left;
+	height:366px;
+}
+.box2L2 {
+	float:left;
+	height:560px;
+}
+.box3L2 {
+	float:left;
+	height:223px;
+}
+.box4L2 {
+	position:absolute;
+	height:500px;
+	top:385px;
+}
+.box5L2 {
+	position:absolute;
+	left:275px;
+	top:580px;
+	height:306px;
+}
+
+.footerL2 {
+	position:fixed;
+	height:50px;
+	width:1000px;
+   	bottom:0px;
+	background-color:#d6d6d6;
+}
+
+/*-----Layout3-----*/
+
+.headerL3{
+	position: relative;
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+.logoL3 {
+	left:21px;
+	top:23px;
+	position: relative;
+}
+.headerL3{
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+#Menu{
+    display:block;
+    position: absolute;
+    width: 500px;
+    height: 62px;
+    top: 438px;
+    background-color:#b94a48; 
+}
+.LinksL3{
+	text-decoration:none;
+	height:39px;
+	width: 167px;
+	font-size: 18px;
+	font-family: sans-serif;
+	color:#FFFFFF;
+	padding-top: 23px;	
+}
+
+.Layout1L3 {
+	position: absolute;
+    text-align:left;
+	padding-left: 10px;
+}
+.Layout2L3 {
+	position: absolute;
+    left: 167px;
+    text-align: center;
+}
+.Layout3L3 {
+	background-color:#333333;
+	position: absolute;
+    left: 334px;
+    text-align: center;
+}
+
+#Menu ul {
+	float:left;
+	list-style-type: none;
+}
+
+#Menu li {float:left;}
+
+.headerL3 img{
+    position: absolute;
+    top: 207px;
+    left: 207px;
+    width: 86px;
+    height: 86px;
+    background: url("../images/plus.png")no-repeat;
+}
+#MainL3
+{
+    background-color: #9d261d;
+    min-height: 1000px;
+    height: 100%;
+    width: auto;
+    max-width: 1000px;
+}
+#MainL3 > div:hover{
+    background-color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+#box1L3{
+    background-color: #1f0806;
+    height: 250px;
+    width: 250px;
+    float: left;
+    position: relative;
+}
+#box2L3{
+    background-color: #5e1711;
+    height: 250px;
+    width: 250px;
+    float: left;
+    position: relative;
+}
+#box3L3{
+    background-color: #7e1e17;
+    height: 250px;
+    width: 250px;
+    float: left;
+    position: relative;
+}
+#box4L3{
+    background-color: #370d0a;
+    height: 250px;
+    width: 250px;
+    float: left;
+    position: relative;
+}
+#AddBoxes > div:hover{
+    background-color: #ffffff !important;
+    opacity: 1 !important;
+}
