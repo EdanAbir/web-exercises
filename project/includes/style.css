@@ -1,0 +1,581 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+header, nav, main, section, footer, body, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+}
+
+.logoImageFirstPageOnly {
+    background: url(../images/logo.png) no-repeat;
+    position: absolute; /*position: relative;*/
+    display: block;
+    width: 100px;
+    height: 80px;
+    top: 87px;
+    left: 140px;
+}
+
+header > h1 {
+    position: absolute;
+    display: block;
+    top: 205px;
+    text-align: center;
+    left: 125px;
+}
+
+form {
+    position: absolute;
+    top: 300px;
+    left: 90.5px;
+}
+
+input {
+    border-radius: 10px;
+    background-color: #aeb2b5;
+    text-align: center;
+    width: 194px;
+    height: 33px;
+}
+
+input[type=submit] {
+    position: relative;
+    top: 35px;
+    width: 166px;
+    height: 50px;
+    background-color: #0d138b;
+    left: 14px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    position: relative;
+    background-color: #08cdf7;
+    width: 295px;
+    height: 32px;
+    top: 450px;
+    left: 40px;
+}
+
+.signUpBtn {
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+    /* sign up */
+   
+.sign > form {
+    position: absolute;
+    top: 110px;
+}
+
+.sign > form > label > input {
+    border-radius: 10px;
+    background-color: #08cdf7;
+    text-align: center;
+    width: 194px;
+}
+
+    /* workout plan pages */
+   
+.logoImage {
+    background: url(../images/logo.png) no-repeat;
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 80px;
+}
+
+.topNav {
+    background-color: gray;
+    color: black;
+    width: 375px;
+    height: 80px;
+}
+
+header > div > h4 {
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 46px;
+}
+
+.fa-bars {
+    position: relative;
+    display: block;
+    float: right;
+    right: 8px;
+    font-size: 32px;
+}
+
+.circle-text {
+    position: relative;
+    display: table-cell;
+    height: 88px;
+    width: 88px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #12b9f0;
+    color: #fff;
+}
+
+b:hover {
+    color: #e3f60b;
+}
+
+.circleOne {
+    left: 62px;
+    top: 28px;
+}
+
+.circleTwo {
+    left: 150px;
+    top: 28px;
+}
+
+.circleThree {
+    right: 114px;
+    top: 164px;
+}
+
+.circleFour {
+    right: 25px;
+    top: 164px;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 375px;
+    height: 73px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.fa-user {
+    margin-left: 5px;
+    margin-top: 11px;
+    float: left;
+    font-size: 28px;
+}
+.fa-dumbbell {
+    font-size: 28px;
+    float: left;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.fa-calendar {
+    font-size: 28px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.fa-users {
+    font-size: 28px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+.fa-cutlery {
+    font-size: 28px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 18px;
+}
+
+    /*****************************/
+    #Switch{
+	background: url(../images/switch.png) no-repeat;
+    position: absolute;
+    display: block;
+    width: 69px;
+    height: 23px;  
+    margin-top: -30px;
+    right: 10px;
+}
+
+.ExercisesList{
+	display: inline-block;
+	margin-top: 1px;
+	height: 660px;
+	width: 375px;
+}
+
+#ExerciseText
+{
+	padding-left:12px;
+	padding-bottom:0px;
+	font-size: 15px;
+	font-weight: normal;
+	display: inline-block;
+	margin:auto;
+	vertical-align:middle;
+	background-color: #f7f6f6;
+	height: 84px;
+	width: 	262px;
+}
+ #ExerciseTextIn{
+	margin-top: 30px;
+}
+
+.StartWorkout{
+	position: absolute;
+	display: block;
+	margin-top:-120px;
+	margin-left:64px;	
+}
+    /*********Menu****************/
+.sideNav {
+    height: 100%;
+    max-height: 70%;
+    width: 0;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #c8cacc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sideNav a {
+    padding: 8px 8px 8px 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1b0975;
+    display: block;
+    transition: 0.3s;
+}
+
+sideNav a:hover {
+    color: #f1f1f1;
+}
+
+.sideNav .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sideNav > .fa-user{
+    margin-left: 17px;
+    font-size: 28px;
+}
+
+.fa-bell {
+    position: relative;
+    font-size: 28px;
+    margin-left: 15px;
+    top: 42px;
+    color: #1b0975;
+}
+
+.fa-cog {
+    position: relative;
+    font-size: 28px;
+    margin-left: 15px;
+    top: 42px;
+    color: #1b0975;
+}
+
+div > .fa-user {
+    color: #1b0975;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+
+}
+
+    /* Back */
+   
+.logoImage_Back{
+    background: url(../images/logo.png) no-repeat;
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 80px;
+}
+.topNav_Back {
+    background-color: gray;
+    color: black;
+    width: 375px;
+    height: 80px;
+}  
+.ExercisesList_Back{
+	display: inline-block;
+	margin-top: 1px;
+	height: 500px;
+	width: 375px;
+}
+#BackExerciseText
+{
+	padding-left:12px;
+	padding-bottom:0px;
+	font-size: 15px;
+	font-weight: normal;
+	display: inline-block;
+	margin:auto;
+	vertical-align:middle;
+	background-color: #f7f6f6;
+	height: 84px;
+	width: 	262px;
+}
+#BackExerciseTextIn{
+	margin-top: 30px;
+}
+#SwitchBack{
+	background: url(../images/switch.png) no-repeat;
+    position: absolute;
+    display: block;
+    width: 69px;
+    height: 23px;  
+    margin-top: -30px;
+    right: 10px;
+}
+.BackButton{
+	position: absolute;
+	display: block;
+	margin-top:-45px;
+	right:0px;	
+}
+
+
+
+/* Sets1 */
+
+.logoImage_Sets{
+    background: url(../images/logo.png) no-repeat;
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 80px;
+}
+.topNav_Sets {
+    background-color: gray;
+    color: black;
+    width: 375px;
+    height: 80px;
+}
+.SetsList{
+	display: inline-block;
+	margin-top: 0px;
+	height: 700px;
+	width: 375px;
+}
+#ExerciseName{
+	margin-top: 10px;
+	margin-left: 100px
+}
+.SetsCover{
+    background: url(../images/SetsCover.png) no-repeat;
+    position: relative;
+    display: block;
+    width: 303px;
+    height: 227px;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+.SetsSquare{
+	margin-left: 7px;
+	margin-top: 20px;
+}
+
+#BlackSet1{	
+	text-align: center;
+	display: inline-block;
+	vertical-align:middle;
+	background-color: #000000;
+	height: 64px;
+	width: 	118px;
+}
+#BlackSet2{	
+	text-align: center;
+	display: inline-block;
+	vertical-align:middle;
+	background-color: #000000;
+	height: 64px;
+	width: 	118px;
+}
+#BlackSet3{	
+	margin-left: -1px;
+	text-align: center;
+	display: inline-block;
+	vertical-align:middle;
+	background-color: #000000;
+	height: 64px;
+	width: 	118px;
+}
+#SetTextIn{margin-top: 10px;}
+
+#RestTime{
+	margin-top: 15px;
+	margin-left: 138px;
+}
+
+#counter{
+	margin-top: 8px;
+	margin-left: 157px;
+	font-size: 33px;
+}
+#MadeIt3{
+	position: absolute;
+	display: block;
+	margin-top:10px;
+	left:128px;
+	text-align: center;
+	display: inline-block;
+	vertical-align:middle;
+	background-color: #fef67f;
+	height: 38px;
+	width: 	118px;	
+}
+#MadeIt2{
+	position: absolute;
+	display: block;
+	margin-top:10px;
+	left:128px;
+	text-align: center;
+	display: inline-block;
+	vertical-align:middle;
+	background-color: #fef67f;
+	height: 38px;
+	width: 	118px;	
+}
+#MadeIt1{
+	position: absolute;
+	display: block;
+	margin-top:10px;
+	left:128px;
+	text-align: center;
+	display: inline-block;
+	vertical-align:middle;
+	background-color: #fef67f;
+	height: 38px;
+	width: 	118px;	
+}
+#MadeItTextIn{
+	margin-top: 8px;
+}
+#NextExercise{
+	position: absolute;
+	display: block;
+	margin-top:120px;
+	right:20px;
+	text-align: center;
+	display: inline-block;
+	vertical-align:middle;
+	background-color: #fef67f;
+	height: 38px;
+	width: 	118px;	
+}
+#NextExerciseTextIn{
+	margin-top: 8px;
+}
+#PrevExercise{
+	position: absolute;
+	display: block;
+	margin-top:120px;
+	left:20px;
+	text-align: center;
+	display: inline-block;
+	vertical-align:middle;
+	background-color: #fef67f;
+	height: 38px;
+	width: 	118px;	
+}
+#PrevExerciseTextIn{
+	margin-top: 8px;
+}
+
+
+/* Sets2 */
+
+.logoImage_Sets2{
+    background: url(../images/logo.png) no-repeat;
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 80px;
+}
+
+#ExerciseName2{
+	margin-top: 10px;
+	margin-left: 60px
+}
+
+.SetsCover2{
+    background: url(../images/SetsCover2.png) no-repeat;
+    position: relative;
+    display: block;
+    width: 303px;
+    height: 227px;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+#NextExercise2{
+	position: absolute;
+	display: block;
+	margin-top:120px;
+	right:20px;
+	text-align: center;
+	display: inline-block;
+	vertical-align:middle;
+	background-color: #fef67f;
+	height: 38px;
+	width: 	118px;	
+}
+#PrevExercise2{
+	position: absolute;
+	display: block;
+	margin-top:120px;
+	left:20px;
+	text-align: center;
+	display: inline-block;
+	vertical-align:middle;
+	background-color: #fef67f;
+	height: 38px;
+	width: 	118px;	
+}
+
+
+	
+	
+
+
+@media  screen and (min-width: 395px) {
+
+    .mobile {
+        display: none;
+    }
+}
+
+    @media  screen and (max-width: 396px) {
+        .notMobile {
+            visibility: hidden;
+        }
+    }
